@@ -1,0 +1,10 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: yellow;
+}
+
+.grid-item1 {
+  grid-column: 2 / 4; /* Item will start from column 2 and span to 4 (i.e. cover column 2 and 3) */
+  background-color: red;
+}
